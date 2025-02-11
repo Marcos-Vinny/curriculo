@@ -1,4 +1,4 @@
-/* Reset e configurações globais */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,14 +14,14 @@ body {
   margin: 0;
 }
 
-/* Container geral */
+
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Header */
+
 header {
   background: linear-gradient(135deg, #0047ab, #2e7bd1);
   padding: 40px 0;
@@ -41,7 +41,7 @@ header .title {
   font-weight: 300;
 }
 
-/* Seções */
+
 section {
   background: white;
   border-radius: 10px;
@@ -51,14 +51,14 @@ section {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Títulos */
+
 h2 {
   font-size: 2rem;
   color: #0047ab;
   margin-bottom: 20px;
 }
 
-/* Listas */
+
 ul {
   list-style: none;
 }
@@ -78,7 +78,7 @@ a:hover {
   color: #2e7bd1;
 }
 
-/* Footer */
+
 footer {
   background-color: #2e7bd1;
   color: white;
@@ -86,7 +86,7 @@ footer {
   padding: 10px 0;
 }
 
-/* Animações */
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
